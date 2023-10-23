@@ -1,3 +1,20 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(81, 183, 56);
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  color: darkred;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +22,42 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.infoAbout {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  border: 3px solid green;
+  width: 900px;
+  background-image: linear-gradient(to bottom right, yellow, orange, green);
+}
+
+.infoCity {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  border: 3px dashed darkgreen;
+  width: 850px;
+}
+
+.infoChild {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
+
+.berlinImg {
+  width: 400px;
+  height: 300px;
+}
+
+.romeImg {
+  width: 400px;
+  height: 300px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

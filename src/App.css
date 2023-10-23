@@ -33,6 +33,11 @@ h2 {
   background-image: linear-gradient(to bottom right, yellow, orange, green);
 }
 
+.capitalInfo {
+  font-weight: bold;
+  font-size: large;
+}
+
 .infoCity {
   display: grid;
   grid-template-columns: 400px 400px;
@@ -50,14 +55,13 @@ h2 {
   align-content: center;
 }
 
-.berlinImg {
+.childImg {
   width: 400px;
   height: 300px;
 }
 
-.romeImg {
-  width: 400px;
-  height: 300px;
+.buttonInfo {
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {
